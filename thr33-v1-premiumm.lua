@@ -7,7 +7,7 @@
 local _ENV = getfenv and getfenv() or _ENV
 
 -- ── Konfigurasi (hardcoded, jangan diubah) ──────────────────────────────────
-local KEY_URL    = "https://raw.githubusercontent.com/Thrr33/SCRIIPT_BY_THR33/refs/heads/main/key.txt"
+local KEY_URL    = "https://raw.githubusercontent.com/Thrr33/SCRIIPT_BY_THR33/refs/heads/main/keyy.txt"
 local KEY_ID     = "4e568aa12f03786c"
 local URL_VERIFY = "aff9957b0aba32e1"
 local ENC_LEN    = 36192
@@ -2411,3 +2411,4 @@ local success, err = pcall(protected_load)
 if not success then
     warn(tostring(err))
 end
+
